@@ -142,7 +142,7 @@ Dự án được thực hiện trong cuộc thi [ Phần Mềm Nguồn Mở-Oly
 ## 👤 Người hướng dẫn
 ### Nguyễn Quốc Long
 - 📧 : quoclongdng@gmail.com 
-- 🏫 : Duy Tan University - SCS - DZFullstack 
+- 🏫 : Duy Tan University 
 
 
 ## 💡Nhà phát triển
@@ -156,7 +156,7 @@ Dự án được thực hiện trong cuộc thi [ Phần Mềm Nguồn Mở-Oly
 - Võ Văn Việt           :  <u>vietvo371@gmail.com</u>
 - Nguyễn Ngọc Duy Thái  :  <u>kkdn011@gmail.com</u>
 
-*" 🏫 DTU_DZ - DUY TAN UNIVERSITY - SCS ✨"*
+*" 🏫 DTU_DZ - DUY TAN UNIVERSITY ✨"*
 ### 📝 License
 Dự án này được cấp phép theo các điều khoản của giấy phép [MIT License](https://github.com/Truongpyeo/DTURelifeLink/blob/master/LICENSE)
 
