@@ -227,7 +227,7 @@ relieflink/
 └── assets/         # Hình ảnh, tài nguyên
 ```
 ## 📖 Hướng dẫn chung
-   ### Document [Document](docs/setup.md)
+   ### Xem hướng dẫn chung tại [đây](docs/setup.md)
 
 ## 📚 Hướng dẫn cài đặt
 
