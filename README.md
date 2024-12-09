@@ -347,6 +347,28 @@ Sau khi các container đã được khởi động, bạn có thể truy cập 
 
 Xem chi tiết tại [Docker Appsmith](https://docs.appsmith.com/getting-started/setup/installation-guides/docker)
 
+## MongoDBCompass
+### Yêu cầu 
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+
+### Cách cài đặt
+- Tải MongoDB Compass từ trang chủ MongoDB
+- Cài đặt MongoDB Compass
+- Mở MongoDB Compass và chọn phần **New Connection**
+- Nhập URI
+  ```
+    mongodb+srv://admin:admin@cluster0.gw0vs.mongodb.net
+  ```
+- Chọn **Connect**
+- Tìm đến mục Open MongoDB shell
+- Nhập vào 
+```
+    use rescue_alert
+```
+Hoặc bạn có thể tự tạo seed data bằng cách nhập vào 
+
+Với những bước ở trên bạn có thể trải nghiệm ứng dụng của chúng tôi 
+
 ## 🤝 Đóng góp
 Chúng tôi rất hoan nghênh mọi đóng góp! Xem [CONTRIBUTING.md](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CONTRIBUTING.md) để biết thêm chi tiết.
 
@@ -374,4 +396,4 @@ Xem [CODE_OF_CONDUCT.md](https://github.com/Truongpyeo/DTURelifeLink/blob/master
 - Issues: [GitHub Issues](https://github.com/Truongpyeo/DTURelifeLink/issues)
 - Security: Đối với các vấn đề bảo mật nhạy cảm, vui lòng liên hệ trực tiếp qua email: thanhtruong23111999@gmail.com
 
-```
+``` 
