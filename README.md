@@ -193,7 +193,7 @@ Bạn có thể trải nghiệm ReliefLink tại: https://dz1.dzfullstack.com/
 Bạn có thể dùng các tài khoản sau để trải nghiệm:
 
 **Portal Người Dùng:**
-- Email: admin1@example.com
+- Email: a@example.com
 - Password: 123456
 
 **Portal Nhân Lực:**
@@ -201,8 +201,9 @@ Bạn có thể dùng các tài khoản sau để trải nghiệm:
 - Password: 123456
 
 **Portal Admin:**
-- Email: a@example.com
+- Email: admin1@example.com
 - Password: 123456
+
 
 > **Lưu ý**: Đây là tài khoản demo chỉ có quyền hạn giới hạn. Để sử dụng đầy đủ tính năng, vui lòng đăng ký tài khoản mới.
 
