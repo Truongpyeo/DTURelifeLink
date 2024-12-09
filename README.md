@@ -368,7 +368,7 @@ Xem chi tiết tại [Docker Appsmith](https://docs.appsmith.com/getting-started
 Hoặc bạn có thể tự tạo seed data bằng cách nhập vào 
 
 Với những bước ở trên bạn có thể trải nghiệm ứng dụng của chúng tôi 
-## 📑 Document 
+## 📑 Thông tin chi tiết
 - Xem chi tiết thông tin của Relieflink tại [Relieflink Documents](https://docs-relieflink.thanhtruongit.io.vn/docs/intro)
 
 ## 🤝 Đóng góp
