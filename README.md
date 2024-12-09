@@ -153,7 +153,7 @@ Dự án được thực hiện trong cuộc thi [ Phần Mềm Nguồn Mở-Oly
 
 *" 🏫 DTU_DZ - DUY TAN UNIVERSITY - SCS ✨"*
 ### 📝 License
-Dự án này được cấp phép theo các điều khoản của giấy phép [MIT License](LICENSE)
+Dự án này được cấp phép theo các điều khoản của giấy phép [MIT License](https://github.com/Truongpyeo/DTURelifeLink/blob/master/LICENSE)
 
 ## 🖥️ Truy cập hệ thống
 
@@ -242,22 +242,113 @@ relieflink/
    - Cấu hình Git và Deploy keys cho từng ứng dụng
    - Kết nối MongoDB với URI có sẵn
 
-Chi tiết hơn xem trong [docs/setup.md](docs/setup.md)
+Chi tiết hơn xem trong [docs/setup.md](https://github.com/Truongpyeo/DTURelifeLink/blob/master/docs/setup.md)
 
 ## 🧩 Plugins
-- [DTUAppSmithMap](https://www.npmjs.com/package/dtuappsmithmap)
-- [DTUAppSmithRealTime]()
+### DTU AppSmith Map
+ -  NPM 
+```
+  npm install dtuappsmithmap
+```
+ -  CDN
+```
+  <script src="https://cdn.jsdelivr.net/npm/dtuappsmithmap@2.2.20/dist/index.umd.js"></script>
+```
+  - AppSmith
+    - Thêm URL sau vào Resource của Appsmith:
+```
+  https://cdn.jsdelivr.net/npm/dtuappsmithmap@2.2.20/dist/index.umd.js
+```
+Chi tiết hướng dẫn tại [DTUAppSmithMap](https://www.npmjs.com/package/dtuappsmithmap)
+
+### DTU AppSmith RealTime
+- NPM 
+```
+  npm install dtuappsmithrealtime
+```
+- CDN
+```
+  <script src="https://cdn.jsdelivr.net/npm/dtuappsmithrealtime@1.1.5/dist/index.umd.js"></script>
+```
+  
+- AppSmith
+  - Thêm URL sau vào Resource của Appsmith:
+```
+  https://cdn.jsdelivr.net/npm/dtuappsmithrealtime@1.1.5/dist/index.umd.js
+```
+Chi tiết hướng dẫn tại [DTUAppSmithRealTime](https://www.npmjs.com/package/dtuappsmithrealtime/v/1.1.5)
+
+Chi tiết cách cài đặt của AppSmith tại [AppSmith](https://docs.appsmith.com/core-concepts/writing-code/ext-libraries#prerequisites)
 
 ## ⚙️ Services
-- [DTUServerSocket](https://github.com/Truongpyeo/DTUServerSocket)
+### DTU ServerSocket
+
+- Xem chi tiết tại [DTUServerSocket](https://github.com/Truongpyeo/DTUServerSocket)
+
+- Server Demo: [ServerDemo](https://socket.thanhtruongit.io.vn/login.html)
+
+## 🐳 Docker Appsmith
+### Yêu cầu tiên quyết
+ - Docker (phiên bản 20.10.7 trở lên)  [Docker]( https://docs.docker.com/get-docker/)
+ - Docker-Compose (phiên bản 1.29.2 trở lên) [Docker-Compose](https://docs.docker.com/compose/install/)
+
+Bạn sẽ cần phải khởi động lại máy tính sau khi hoàn tất quá trình cài đặt.
+
+- Clone repo của Appsmith từ GitHub về máy tính: 
+``` 
+    git clone https://github.com/appsmithorg/appsmith.git
+
+```
+
+- Nếu git clone về không có docker-compose.yml thì bạn cần tạo 1 file docker-compose.yml và cấu hình sau: 
+	version: "3"
+
+  ```
+  services:
+    appsmith:
+        image: index.docker.io/appsmith/appsmith-ee
+        container_name: appsmith
+        ports:
+            - "5555:80"
+            - "444:443"
+        volumes:
+            - ./stacks:/appsmith-stacks
+        restart: unless-stopped
+    mysql:
+        image: mysql:latest
+        ports:
+            - "33088:3306" 
+        container_name: mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=admin
+            - MYSQL_DATABASE=appsmith
+        volumes:
+            - mysql-data:/var/lib/mysql
+        restart: unless-stopped
+        volumes:
+        mysql-data:
+  ```
 
 
-## 📚 Tài liệu
-- [Hướng dẫn cài đặt](docs/setup.md)
-- [Hướng dẫn đóng góp](CONTRIBUTING.md)
+
+- Trong thư mục appsmith, chạy lệnh sau để khởi động Appsmith trong Docker:
+
+``` 
+  cd appsmith
+  docker-compose up
+```
+Sau khi các container đã được khởi động, bạn có thể truy cập Appsmith qua trình duyệt.
+
+- Mở trình duyệt và vào địa chỉ:
+
+    - Truy cập Appsmith trên cổng http://localhost:5555 (HTTP) và http://localhost:444 (HTTPS).
+
+    - Truy cập MySQL trên cổng http://localhost:33088.
+
+Xem chi tiết tại [Docker Appsmith](https://docs.appsmith.com/getting-started/setup/installation-guides/docker)
 
 ## 🤝 Đóng góp
-Chúng tôi rất hoan nghênh mọi đóng góp! Xem [CONTRIBUTING.md](CONTRIBUTING.md) để biết thêm chi tiết.
+Chúng tôi rất hoan nghênh mọi đóng góp! Xem [CONTRIBUTING.md](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CONTRIBUTING.md) để biết thêm chi tiết.
 
 ## 🔄 Quy trình phát triển
 1. Fork repo này
@@ -274,10 +365,10 @@ Nếu bạn phát hiện lỗi, vui lòng tạo issue mới với:
 - Môi trường (browser, OS...)
 
 ## 📜 Changelog
-Xem [CHANGELOG.md](CHANGELOG.md) để biết lịch sử thay đổi.
+Xem [CHANGELOG.md](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CHANGELOG.md) để biết lịch sử thay đổi.
 
 ## ⚖️ Code of Conduct
-Xem [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) để biết các quy tắc và hành vi được chấp nhận.
+Xem [CODE_OF_CONDUCT.md](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CODE_OF_CONDUCT.md) để biết các quy tắc và hành vi được chấp nhận.
 
 ## Báo cáo lỗi & Góp ý
 - Issues: [GitHub Issues](https://github.com/Truongpyeo/DTURelifeLink/issues)
