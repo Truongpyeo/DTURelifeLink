@@ -111,7 +111,7 @@ Dự án được thực hiện trong cuộc thi [ Phần Mềm Nguồn Mở-Oly
 - **Đối với cộng đồng và người dân** : Tham gia vào các chương trình đào tạo và tập huấn về ứng phó thiên tai.Chủ động tìm hiểu về các biện pháp phòng tránh và ứng phó với thiên tai.Hỗ trợ lẫn nhau trong các tình huống khẩn cấp, đặc biệt là các nhóm dễ bị tổn thương như người già, trẻ em, và người khuyết tật.
 - **Đối với các doanh nghiệp và nhà đầu tư** : Hỗ trợ tài chính và công nghệ để phát triển và triển khai các giải pháp của dự án.Đóng góp vào các hoạt động cứu trợ và tái thiết như một phần của trách nhiệm xã hội doanh nghiệp.
 
-      *`RELIEFLINK`* không chỉ là một dự án hỗ trợ khẩn cấp mà còn là một lời kêu gọi hành động – hành động vì sự an toàn của cộng đồng, vì sự phát triển bền vững của đất nước, và vì tương lai của thế hệ mai sau.
+*`RELIEFLINK`* không chỉ là một dự án hỗ trợ khẩn cấp mà còn là một lời kêu gọi hành động – hành động vì sự an toàn của cộng đồng, vì sự phát triển bền vững của đất nước, và vì tương lai của thế hệ mai sau.
 
 ## 🌏 Mục tiêu tương lai của dự án 
 
