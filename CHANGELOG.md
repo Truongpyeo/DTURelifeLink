@@ -4,6 +4,11 @@ Tất cả những thay đổi đáng chú ý của dự án RELIEFLINK sẽ đ�
 
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 và dự án này tuân theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.1.5]
+
+### Updated
+- Cập nhật Submodule cho các package và plugin.
+  
 ## [1.1.4]
 
 ### Updated
@@ -12,7 +17,7 @@ và dự án này tuân theo [Semantic Versioning](https://semver.org/spec/v2.0.
 ## [1.1.3]
 
 ### Added
-- Tích hợp Submodule cho các package plugin.
+- Tích hợp Submodule cho các service.
 
 ## [1.1.2] - 2024-12-07
 
