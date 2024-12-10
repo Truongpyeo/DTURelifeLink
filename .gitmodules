@@ -1,0 +1,9 @@
+[submodule "ReliefLink_Admin"]
+	path = ReliefLink_Admin
+	url = https://github.com/Truongpyeo/DTUDZ2_Admin
+[submodule "ReliefLink_NhanLuc"]
+	path = ReliefLink_NhanLuc
+	url = https://github.com/Truongpyeo/DTUDZ2_NhanLuc
+[submodule "ReliefLink_NguoiDung"]
+	path = ReliefLink_NguoiDung
+	url = https://github.com/Truongpyeo/DTUDZ2_NguoiDung
