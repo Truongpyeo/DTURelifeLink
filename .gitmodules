@@ -7,3 +7,12 @@
 [submodule "ReliefLink_NguoiDung"]
 	path = ReliefLink_NguoiDung
 	url = https://github.com/Truongpyeo/DTUDZ2_NguoiDung
+[submodule "Plugin_Realtime"]
+	path = Plugin_Realtime
+	url = https://github.com/Truongpyeo/dtuappsmithrealtime
+[submodule "Plugin_Map"]
+	path = Plugin_Map
+	url = https://github.com/Truongpyeo/DTUAppSmithMap
+[submodule "Service_Socket"]
+	path = Service_Socket
+	url = https://github.com/Truongpyeo/DTUServerSocket
