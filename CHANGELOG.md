@@ -4,15 +4,15 @@ Tất cả những thay đổi đáng chú ý của dự án RELIEFLINK sẽ đ�
 
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 và dự án này tuân theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.1.4]
 
-## [Unreleased]
+### Updated
+- Thay đổi CHANGELOG.md
+
+## [1.1.3]
 
 ### Added
-- Tích hợp 3 ứng dụng Appsmith thành một hệ thống thống nhất
-- Thiết lập cấu trúc repo và tài liệu chuẩn
-- Thêm hướng dẫn đóng góp và cài đặt
-- Giấy phép GPL v3
-- Thêm CI/CD workflow với GitHub Actions
+- Tích hợp Submodule cho các package plugin.
 
 ## [1.1.2] - 2024-12-07
 
